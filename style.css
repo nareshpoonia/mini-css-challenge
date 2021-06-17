@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  position: relative;
+  top: -600px;
+  right: -1000px;
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 200px;
+  right: 0px;
+}
