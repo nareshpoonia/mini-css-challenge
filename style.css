@@ -1,22 +1,23 @@
-.card {
+/* .card {
   display: flex;
-}
+} */
 
 .main-image {
-  width: 100%;
-  height: auto;
+  width: 160%;
+  height: 650px;
 }
 
 .title {
   position: relative;
-  top: -600px;
+  top: -700px;
   right: -1000px;
+  width: 40px;
 }
 
 .paragraph {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 200px;
-  right: 0px;
+  top: -300px;
+  right: -950px;
 }
