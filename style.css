@@ -1,23 +1,33 @@
-/* .card {
-  display: flex;
-} */
-
-.main-image {
-  width: 160%;
-  height: 650px;
+.clickable-div {
+  position: relative;
 }
-
+.clickable-div a {
+  position: relative;
+  z-index: 1;
+}
+.clickable-link a {
+  position: static;
+}
+.clickable-div a::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 500;
+  left: 0;
+  width: 0;
+  height: 0;
+}
 .title {
   position: relative;
-  top: -700px;
+  top: -600px;
   right: -1000px;
-  width: 40px;
 }
-
-.paragraph {
-  display: flex;
-  flex-direction: column;
+p {
   position: relative;
-  top: -300px;
-  right: -950px;
+  top: -400px;
+  right: -1000px;
+}
+.main-image {
+  display: block;
+  height: 650px;
 }
